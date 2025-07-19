@@ -1,0 +1,8 @@
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao3\Aplicacao3\bin\Debug\Aplicacao3.exe.config
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao3\Aplicacao3\bin\Debug\Aplicacao3.exe
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao3\Aplicacao3\bin\Debug\Aplicacao3.pdb
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao3\Aplicacao3\obj\Debug\Aplicacao3.csproj.AssemblyReference.cache
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao3\Aplicacao3\obj\Debug\Aplicacao3.csproj.CoreCompileInputs.cache
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao3\Aplicacao3\obj\Debug\Aplicacao3.exe
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao3\Aplicacao3\obj\Debug\Aplicacao3.pdb
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao3\Aplicacao3\obj\Debug\Aplicacao3.exe.config

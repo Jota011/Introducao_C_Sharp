@@ -1,0 +1,8 @@
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao2\Aplicacao2\bin\Debug\Aplicacao2.exe.config
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao2\Aplicacao2\bin\Debug\Aplicacao2.exe
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao2\Aplicacao2\bin\Debug\Aplicacao2.pdb
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao2\Aplicacao2\obj\Debug\Aplicacao2.csproj.AssemblyReference.cache
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao2\Aplicacao2\obj\Debug\Aplicacao2.csproj.CoreCompileInputs.cache
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao2\Aplicacao2\obj\Debug\Aplicacao2.exe
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao2\Aplicacao2\obj\Debug\Aplicacao2.pdb
+C:\Users\joaop\OneDrive\Faculdade\Trabalhos Pessoais\Introducao_C_Sharp\Aplicacao2\Aplicacao2\obj\Debug\Aplicacao2.exe.config
