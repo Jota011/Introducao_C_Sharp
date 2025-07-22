@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{DD9AB4F4-D582-41CC-B52E-E261176ACEDF}|Aplicacao5\\Aplicacao5.csproj|c:\\users\\joaop\\onedrive\\faculdade\\trabalhos pessoais\\introducao_c_sharp\\aplicacao5\\aplicacao5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD9AB4F4-D582-41CC-B52E-E261176ACEDF}|Aplicacao5\\Aplicacao5.csproj|solutionrelative:aplicacao5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9AB4F4-D582-41CC-B52E-E261176ACEDF}|Aplicacao5\\Aplicacao5.csproj|c:\\users\\joaop\\onedrive\\faculdade\\trabalhos pessoais\\introducao_c_sharp\\aplicacao5\\aplicacao5\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD9AB4F4-D582-41CC-B52E-E261176ACEDF}|Aplicacao5\\Aplicacao5.csproj|solutionrelative:aplicacao5\\excluir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9AB4F4-D582-41CC-B52E-E261176ACEDF}|Aplicacao5\\Aplicacao5.csproj|c:\\users\\joaop\\onedrive\\faculdade\\trabalhos pessoais\\introducao_c_sharp\\aplicacao5\\aplicacao5\\adicionar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD9AB4F4-D582-41CC-B52E-E261176ACEDF}|Aplicacao5\\Aplicacao5.csproj|solutionrelative:aplicacao5\\adicionar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9AB4F4-D582-41CC-B52E-E261176ACEDF}|Aplicacao5\\Aplicacao5.csproj|c:\\users\\joaop\\onedrive\\faculdade\\trabalhos pessoais\\introducao_c_sharp\\aplicacao5\\aplicacao5\\editar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD9AB4F4-D582-41CC-B52E-E261176ACEDF}|Aplicacao5\\Aplicacao5.csproj|solutionrelative:aplicacao5\\editar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Excluir.cs",
+              "DocumentMoniker": "C:\\Users\\joaop\\OneDrive\\Faculdade\\Trabalhos Pessoais\\Introducao_C_Sharp\\Aplicacao5\\Aplicacao5\\Excluir.cs",
+              "RelativeDocumentMoniker": "Aplicacao5\\Excluir.cs",
+              "ToolTip": "C:\\Users\\joaop\\OneDrive\\Faculdade\\Trabalhos Pessoais\\Introducao_C_Sharp\\Aplicacao5\\Aplicacao5\\Excluir.cs",
+              "RelativeToolTip": "Aplicacao5\\Excluir.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:41:37.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Adicionar.cs",
+              "DocumentMoniker": "C:\\Users\\joaop\\OneDrive\\Faculdade\\Trabalhos Pessoais\\Introducao_C_Sharp\\Aplicacao5\\Aplicacao5\\Adicionar.cs",
+              "RelativeDocumentMoniker": "Aplicacao5\\Adicionar.cs",
+              "ToolTip": "C:\\Users\\joaop\\OneDrive\\Faculdade\\Trabalhos Pessoais\\Introducao_C_Sharp\\Aplicacao5\\Aplicacao5\\Adicionar.cs",
+              "RelativeToolTip": "Aplicacao5\\Adicionar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:04:33.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Editar.cs",
+              "DocumentMoniker": "C:\\Users\\joaop\\OneDrive\\Faculdade\\Trabalhos Pessoais\\Introducao_C_Sharp\\Aplicacao5\\Aplicacao5\\Editar.cs",
+              "RelativeDocumentMoniker": "Aplicacao5\\Editar.cs",
+              "ToolTip": "C:\\Users\\joaop\\OneDrive\\Faculdade\\Trabalhos Pessoais\\Introducao_C_Sharp\\Aplicacao5\\Aplicacao5\\Editar.cs",
+              "RelativeToolTip": "Aplicacao5\\Editar.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:38:45.99Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +75,7 @@
               "RelativeDocumentMoniker": "Aplicacao5\\Program.cs",
               "ToolTip": "C:\\Users\\joaop\\OneDrive\\Faculdade\\Trabalhos Pessoais\\Introducao_C_Sharp\\Aplicacao5\\Aplicacao5\\Program.cs",
               "RelativeToolTip": "Aplicacao5\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwEkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T00:30:44.563Z",
               "EditorCaption": ""

@@ -7,38 +7,77 @@ using System.Threading.Tasks;
 
 namespace Aplicacao5
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            string[] itens = new string[3];
-            int count = 0;
-            string respostas;
-
-            for (int i = 0; i < itens.Length; i++)
+            List<Adicionar> itens = new List<Adicionar> ();
+            Adicionar add = new Adicionar(); // Instância da classe Adicionar 
+            Editar ed = new Editar();     // Instância da classe Editar
+            Excluir ex = new Excluir();   // Instância da classe Excluir
+            int count = 1;
+            //string respostas;
+            int op;
+            do
             {
-                if (itens[i] == "")
+                Console.Clear();
+                Console.WriteLine("Menu");
+                Console.WriteLine("1-Adicionar");
+                Console.WriteLine("2-Editar");
+                Console.WriteLine("3-Excluir");
+                Console.WriteLine("4-Listar");
+                Console.WriteLine("0-Sair");
+                Console.Write("Escolha uma opção: ");
+                string entrada = Console.ReadLine();
+                if (!int.TryParse(entrada, out op))
                 {
-                    Console.WriteLine("Qual o item a ser adicionado?");
-                    respostas = Console.ReadLine();
-                    itens[i] = respostas;
+                    Console.WriteLine("Entrada inválida. Digite um número.");
+                    continue; // volta ao menu
                 }
-                
-            }
-
-            while (count < itens.Length)
-            {
-                Console.WriteLine(itens[count]);
-                count++;
-            }
-
-            /*
-            foreach(string item in itens)
-            {
-                Console.WriteLine(itens);
-            }*/
-
+                Console.Clear();
+                switch (op)
+                {
+                    //chamar uma classe
+                    case 1:
+                        Console.WriteLine("Adicionar");
+                        add.id = count++;
+                        Console.Write("Nome do Item: ");
+                        add.nomeItem = Console.ReadLine();
+                        Console.Write("Validade: ");
+                        add.val = int.Parse(Console.ReadLine());
+                        itens.Add(add);
+                        //Adicionar um item
+                        break;
+                    case 2:
+                        Console.Write("Editar");
+                        ed.EditarItem(itens);
+                        //Editar os valores
+                        break;
+                    case 3:
+                        Console.Write("Excluir");
+                        ex.ExcluirItem(itens);
+                        //Excluit itens
+                        break;
+                    case 4:
+                        Console.WriteLine("Listar");
+                        if (itens.Count > 0)
+                        {
+                            for (int i = 0; i < itens.Count; i++)
+                            {
+                                Console.Write($"Id: {itens[i].id}\nNome: {itens[i].nomeItem}\nVal: {itens[i].val}");
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("Nada encontrado");
+                        }
+                        Console.ReadLine();
+                        break;
+                }
+            } while (op != 0);
+            Console.WriteLine("Encerrando...");
             Console.ReadKey();
+            Environment.Exit(0);
         }
         
     }
