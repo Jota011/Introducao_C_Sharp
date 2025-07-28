@@ -17,8 +17,9 @@ namespace Aplicacao5
 
                 if (item != null)
                 {
-                    itens.Remove(item);
-                    Console.WriteLine("Item excluido com sucesso");
+                    item.status = !item.status;
+                    //itens.Remove(item);       //aqui não vai mais ser deletado, mas sim desativado
+                    Console.WriteLine("Item desativado com sucesso");
                 }
                 else
                 {

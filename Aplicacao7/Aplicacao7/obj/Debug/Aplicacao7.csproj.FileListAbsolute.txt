@@ -1,0 +1,7 @@
+C:\Users\joaop\OneDrive\Faculdade\VisualStudio\Estudos (C#)\Entrevista_1\Aplicacao7\Aplicacao7\bin\Debug\Aplicacao7.exe.config
+C:\Users\joaop\OneDrive\Faculdade\VisualStudio\Estudos (C#)\Entrevista_1\Aplicacao7\Aplicacao7\bin\Debug\Aplicacao7.exe
+C:\Users\joaop\OneDrive\Faculdade\VisualStudio\Estudos (C#)\Entrevista_1\Aplicacao7\Aplicacao7\bin\Debug\Aplicacao7.pdb
+C:\Users\joaop\OneDrive\Faculdade\VisualStudio\Estudos (C#)\Entrevista_1\Aplicacao7\Aplicacao7\obj\Debug\Aplicacao7.csproj.AssemblyReference.cache
+C:\Users\joaop\OneDrive\Faculdade\VisualStudio\Estudos (C#)\Entrevista_1\Aplicacao7\Aplicacao7\obj\Debug\Aplicacao7.csproj.CoreCompileInputs.cache
+C:\Users\joaop\OneDrive\Faculdade\VisualStudio\Estudos (C#)\Entrevista_1\Aplicacao7\Aplicacao7\obj\Debug\Aplicacao7.exe
+C:\Users\joaop\OneDrive\Faculdade\VisualStudio\Estudos (C#)\Entrevista_1\Aplicacao7\Aplicacao7\obj\Debug\Aplicacao7.pdb

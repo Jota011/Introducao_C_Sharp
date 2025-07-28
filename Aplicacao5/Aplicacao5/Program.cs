@@ -12,7 +12,7 @@ namespace Aplicacao5
         static void Main(string[] args)
         {
             List<Adicionar> itens = new List<Adicionar> ();
-            Adicionar add = new Adicionar(); // Instância da classe Adicionar 
+            //Adicionar add = new Adicionar(); // Instância da classe Adicionar 
             Editar ed = new Editar();     // Instância da classe Editar
             Excluir ex = new Excluir();   // Instância da classe Excluir
             int count = 1;
@@ -37,24 +37,32 @@ namespace Aplicacao5
                 Console.Clear();
                 switch (op)
                 {
-                    //chamar uma classe
+                    //chamar uma classe para cada funcao
                     case 1:
                         Console.WriteLine("Adicionar");
+
+                        Adicionar add = new Adicionar(); // Novo objeto para cada adição
                         add.id = count++;
                         Console.Write("Nome do Item: ");
                         add.nomeItem = Console.ReadLine();
                         Console.Write("Validade: ");
                         add.val = int.Parse(Console.ReadLine());
+                        Console.Write("Quantidade: ");
+                        //Aqui tem que criar uma sessao para qtd de itens(PC ou L)
+                        //------------------------------
+
+                        //------------------------------
+                        add.status = true;
                         itens.Add(add);
                         //Adicionar um item
                         break;
                     case 2:
-                        Console.Write("Editar");
+                        Console.WriteLine("Editar");
                         ed.EditarItem(itens);
                         //Editar os valores
                         break;
                     case 3:
-                        Console.Write("Excluir");
+                        Console.WriteLine("Excluir");
                         ex.ExcluirItem(itens);
                         //Excluit itens
                         break;
@@ -64,7 +72,10 @@ namespace Aplicacao5
                         {
                             for (int i = 0; i < itens.Count; i++)
                             {
-                                Console.Write($"Id: {itens[i].id}\nNome: {itens[i].nomeItem}\nVal: {itens[i].val}");
+                                if (itens[i].status == true)
+                                {
+                                Console.Write($"Id: {itens[i].id}\nNome: {itens[i].nomeItem}\nVal: {itens[i].val}\n---------- \n");
+                                }
                             }
                         }
                         else
