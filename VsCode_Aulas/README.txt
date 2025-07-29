@@ -7,11 +7,21 @@ Depois jogue no prompet de comando assim:
 PATH %path%;C:\Windows\Microsoft.NET\Framework64\v4.0.30319
 (Lembrando que você deve fazer o download dos arquivos do .NET ou dotNet, como queira chamar)
 
+Comandos comuns de usar nessas ativades: 
+cd ..                       //Sair da pasta atual
+cd nomeDaPasta              //Aabrir a pasta desejata
+csc nomeDaPasta.cs          //Cria um arquivo executavel
+nomeDaPasta                 //Executa o arquivo executavel
+
+-------
+dotnet new console -n MeuProjeto        //Cria um projeto de aplicativo usando C# e .NET
+dotnet run                              //Roda o Aplicativo
+
 mais detalhes de como fazer o download e configurar no seu PC: https://youtu.be/dVzJ3bx68FA
 
 
 O melhor comando é o de limpar a tela.
-seja: 
+seja em: 
 C#:	    -console.clear();
 JS:	    -console.clear();
 node:	-console.clear();
